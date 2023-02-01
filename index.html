@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,8 +10,10 @@
 </head>
 
 <body>
+    <section>
     <h1>FORMULAIRE D'IDENTIFICATION</h1>
-    <form>
+</section>
+    <form method="get">
         <label for="fname"> Prénom <br> <input id="fname" type="text" placeholder="Ton Prénom"></label>
         <br>
         <label for="name" id="nom"> Nom <br> <input id="name" type="text" placeholder="Ton Nom"></label>
@@ -32,16 +34,12 @@
         <br>
         <label for="ville"> Ville <br><input id="ville" type="text" name="ville" placeholder="Ville"></label>
         <br>
-    </form>
-    <form method="get">
         <label for="profession"> Métier Exercé </label><br>
         <select name="profession" id="profession">
             <option value="artisan"> Artisan </option>
             <option value="métier numérique"> Métier Numérique </option>
             <option value="employé administratif"> Employé Administratif </option>
         </select>
-    </form>
-    <form method="get">
         <label for="nationalité"> Nationalité </label><br>
         <select name="nationalité" id="nationalité">
             <option value="française"> Française </option>
@@ -49,8 +47,6 @@
             <option value="algérienne"> Algérienne </option>
             <option value="colombienne"> Colombienne </option>
         </select>
-    </form>
-    <form>
         <label for="datedenaissance"> Date de Naissance <br>
             <input id="datedenaissance" type="date" max="2005-01-01" min="1924-01-01" name="date de naissance">
         </label>
